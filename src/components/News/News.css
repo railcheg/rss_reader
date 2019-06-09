@@ -1,0 +1,83 @@
+.News {
+    display: flex;
+    padding: 0.5em 1em;
+    transition: .3s;
+    background: #fff;
+}
+
+    .News:hover {
+        background: #f6f7f8;
+    }
+
+    .News:focus-within {
+        background: #f6f7f8;
+    }
+
+    .News-StatusIcon {
+        flex: 0 0 auto;
+    }
+
+    .News-Text {
+        flex: 1 1 0%;
+        padding: .7em 1em 0 0;
+        font-size: 14px;
+        line-height: 1.4;
+        font-weight: bold;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;
+    }
+
+    .News-Delete {
+        margin-top: 0.5em;
+        position: relative;
+        width: 24px;
+        height: 24px;
+        flex: 0 0 auto;
+        border: 0;
+        color: #8c8c8c;
+        background: none;
+        cursor: pointer;
+        border-radius: 0;
+        transition: .2s;
+    }
+
+        .News-Delete:hover,
+        .News-Delete:focus {
+            color: #ec3535;
+        }
+
+        .News-Delete:focus {
+            outline: 0;
+            /*box-shadow: 0 0 0 3px rgba(28, 185, 255, 0.3);*/
+            box-shadow: 0 0 0 3px rgba(236, 53, 53, 0.3);
+        }
+
+        .News-Delete:before,
+        .News-Delete:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 16px;
+            height: 1px;
+            background: currentColor;
+        }
+
+        .News-Delete:before {
+            transform: rotate(45deg);
+        }
+
+        .News-Delete:after {
+            transform: rotate(-45deg);
+        }
+
+    .News--Completed .News-Text {
+        color: #a0a0a0;
+        font-weight: normal;
+
+    }

@@ -1,0 +1,35 @@
+{
+    "select-lang": {
+        "en": "language selection",
+        "ru": "выбор языка"
+    },
+    "create": {
+        "en": "Add",
+        "ru": "Добавить"
+    },
+    "add-url-placeholder": {
+        "en": "Enter url rss...",
+        "ru": "Добавте ссылку на RSS..."
+    },
+    "delete-link": {
+        "en": "Delete link",
+        "ru": "Удалить ссылку"
+    },
+    "filter-all": {
+        "en": "All",
+        "ru": "Все"
+    },
+    "filter-active": {
+        "en": "Active",
+        "ru": "В процессе"
+    },
+    "filter-completed": {
+        "en": "Completed",
+        "ru": "Прочитанные"
+    },
+    "empty-list": {
+        "en": "List is empty",
+        "ru": "Список пуст"
+    }
+
+}

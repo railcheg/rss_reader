@@ -1,0 +1,7 @@
+node_modules
+.idea
+build
+public
+.DS_Store
+*.log
+*.log.*
